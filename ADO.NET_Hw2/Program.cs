@@ -43,6 +43,10 @@ class Program
                     Thread.Sleep(2000);
                 }
             }
+            else if (choice2 == "2")
+            {
+                app.DeleteBook(app.bookList[int.Parse(choice)-2].Substring(2));
+            }
             
         }
     }
